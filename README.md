@@ -1,7 +1,7 @@
 Role Name
 ========
 
-sslkey-deploy
+sslkeys
 
 Role Variables
 --------------
