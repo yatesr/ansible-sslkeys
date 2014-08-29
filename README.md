@@ -10,6 +10,8 @@ Role Variables
 manage_ssl: false
 # Directory ssl keys will be copied to unless specified
 ssl_key_dir: /etc/ssl/private/
+# SSL key location, where the keys are located to deploy.
+ssl_key_loc: ssl/
 
 ```
 

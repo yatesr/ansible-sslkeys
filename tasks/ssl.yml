@@ -7,7 +7,7 @@
         group=root
         mode=0600
   with_items:
-   - ssl/
+   - {{ssl_key_loc}}
 
 - name: Ensure secure permissions
   file: path={{ssl_key_dir}}
