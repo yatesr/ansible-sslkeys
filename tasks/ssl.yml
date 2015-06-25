@@ -8,6 +8,8 @@
         mode=0600
   with_items:
    - "{{ssl_key_loc}}"
+  tags:
+   - ssl-keys
 
 - name: Ensure secure permissions
   file: path={{ssl_key_dir}}
@@ -15,3 +17,5 @@
         group=root
         mode=0600
         recurse=yes
+  tags: 
+   - ssl-keys
